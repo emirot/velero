@@ -33,7 +33,7 @@ type BackupSpec struct {
 	// from. If empty, all namespaces are included.
 	// +optional
 	// +nullable
-	IncludedNamespaces []string `json:"includedNamespaces,omitempty"`
+	IncludedNamespaces []string
 
 	// ExcludedNamespaces contains a list of namespaces that are not
 	// included in the backup.
